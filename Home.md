@@ -2,7 +2,7 @@
 ___
 Scrum-master:
 - Minh Dan Nguyen
-
+___
 Members:
 - Oskar Langås Eidem
 - Mats Solem Gravem
