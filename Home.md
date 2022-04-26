@@ -9,10 +9,11 @@ Vi legger hovedvekt på at BoCo skal eksistere gjennom BoCo-appen, som skal vær
 
 Vi retter oss inn mot privatpersoner og bedrifter. Vi vet at det finnes privatpersoner som innehar gjenstander som andre har bruk for i en kortere tidsperiode. For eksempel kan det være at man har behov for en høytrykkspyler når man skal vaske terrassen på våren, men ikke ønsker eller har råd til å kjøpe en egen. Da er det bedre for lommeboka og miljøet om man kan låne av en som allerede har det, og som ønsker å låne det ut. Den som legger ut annonsen kan velge å ta betalt for utleie, eller leie ut gratis. 
 
-
-_BoCo - for å skape bærekraftige samfunn_    
-  
 <p>&nbsp;</p>
+
+_**BoCo - for å skape bærekraftige samfunn**_    
+  
+
 <p>&nbsp;</p>
 
 ## Scrum-team 08
