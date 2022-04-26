@@ -1,4 +1,3 @@
-# Home
 <img src="uploads/5e918101004f8fa7c6f1a205d0b55b63/BoCo.png" width="200" height="200">
 
 ___
