@@ -1,27 +1,27 @@
-#### Krav
-[User Stories](User Stories)
-
-[Domenemodell](Domenemodell)
+#### [Brukertester/modeller](Brukertester og modeller)
 
 ___
-#### [Brukertester/modeller](Brukertester og modeller)
+#### Krav
+[Domenemodell](Domenemodell)
+
+[User Stories](User Stories)
 
 ___
 #### System
 [Arkitektur](Arkitektur)
 
-[Prosjektstruktur](Prosjektstruktur)
-
-[Klassediagram](Klassediagram)
-
-[Servertjenester](Servertjenester)
+[CI og testing](CI og testing)
 
 [Databasemodell](Databasemodell)
 
-[Kildekode](Kildekode)
-
 [Installasjon](Installasjon)
 
-[CI og testing](CI og testing)
+[Kildekode](Kildekode)
+
+[Klassediagram](Klassediagram)
+
+[Prosjektstruktur](Prosjektstruktur)
+
+[Servertjenester](Servertjenester)
 
 [Sikkerhet](Sikkerhet)
