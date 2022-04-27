@@ -1,5 +1,5 @@
 #### Krav
-[User Stories Oversikt](User Stories Oversikt)
+[User Stories](User Stories)
 
 [Domenemodell](Domenemodell)
 
