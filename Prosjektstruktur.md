@@ -5,7 +5,7 @@
 
 ## _Filstruktur_
 
-**!! Skjermbilde av filstrukturen til frontend her**
+_!! Skjermbilde av filstrukturen til frontend her_
 
 ## BACKEND
 ## _Bibliotek_
@@ -14,4 +14,4 @@
 
 ## _Filstruktur_
 
-**!! Skjermbilde av filstrukturen til frontend her**
+_!! Skjermbilde av filstrukturen til frontend her_
