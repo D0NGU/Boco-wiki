@@ -17,8 +17,9 @@ ___
   - Få varsel når noen ber om leie
   - 
 ___
+
 - Oppdatere min egen annonse
-  - 
+  - er
 ___
 - Redigere min egen profil
   - Jeg skal ha muligheten til å endre passord etter profil er opprettet
