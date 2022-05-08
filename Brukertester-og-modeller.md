@@ -1,4 +1,3 @@
-Legg inn wireframes her
 
 | Logg inn      | Registrer ny bruker |
 | :---        |    :----:   |
