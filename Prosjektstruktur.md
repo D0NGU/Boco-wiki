@@ -1,7 +1,9 @@
-## [FRONTEND](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/frontend)
-### Bibliotek
+## [KLIENT](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/frontend)
+### Bibliotek & Rammeverk
 
-### Rammeverk
+[Vue.js](https://vuejs.org/) er et [JavaScript](https://www.javascript.com/) rammeverk for å lage grensesnitt. Det bygger på standard HTML, CSS og JavaScript og gir en komponent-basert modell for brukergrensesnitt. 
+
+Videre benyttes biblioteket [Vuetify](https://vuetifyjs.com/en/). Dette biblioteket bygger videre på Vue.js med flere komponenter.
 
 ### Filstruktur
 
@@ -27,15 +29,18 @@ frontend
        └───views
 ```
 
-## [BACKEND](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend)
 
-### Bibliotek
-Serverapplikasjonen er bygd med Java og benytter seg av [Apache Maven](https://maven.apache.org/).
 
-### Rammeverk
-På serversiden benyttes det populære rammeverket [Spring](https://spring.io/), da spesifikt Spring Boot. 
+## [SERVER](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend)
+
+### Bibliotek & Rammeverk
+
+Serverapplikasjonen er bygd med Java og benytter seg av [Apache Maven](https://maven.apache.org/) for å administrere prosjektet. Maven standardiserer byggingen, laster ned avhengigheter og automatiserer flere deler av prosjektet.
+
+Det populære rammeverket [Spring](https://spring.io/), da spesifikt _Spring Boot_, blir også brukt. Dette rammeverket sørger blant annet for database-transaksjoner og administrasjon av [REST](https://restfulapi.net/)-tjenester og endepunkter.
 
 ### Filstruktur
+
 Filstrukturen følger [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).
 
 ```
