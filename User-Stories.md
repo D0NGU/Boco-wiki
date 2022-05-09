@@ -22,9 +22,9 @@ ___
   - Få varsel dersom forespørsel om leie er godkjent
 ---
 - Visning av produkter
-  - Mulighet for å sortere/filtrere produktene
+  - Mulighet for å sortere og filtrere produktene
   - Mulighet for å søke blant produktene
-  - Mulighet for å scrolle nedover
+  - Mulighet for å scrolle nedover i produktene
   - Mulighet for å sendes til toppen av siden ved å trykke på '@ 2022 BoCo'
 ___
 - Legge ut en annonse
@@ -35,6 +35,7 @@ ___
   - Legge inn en adresse for produktet
   - Bestemme om annonsen skal være synlig eller ikke
   - Få varsel når noen ber om leie
+  - Få valget mellom å godkjenne eller avslå leieforespørselen 
 ___
 - Brukerfunksjonalitet
   - Mulighet for å bli verifisert bruker
@@ -47,6 +48,7 @@ ___
 - Slette min egen annonse
   - Motta en varsel-boks som spør om du virkelig vil slette annonsen
   - Ha mulighet til å angre den slettede annonsen via varsel-boksen
+  -Ha mulighet til å gjenopprette en slettet annonse fra 'min historikk' (OBS! Dobbeltsjekk dette!!)
 ___
 - Redigere min egen profil
   - Brukeren skal ha muligheten til å endre passord etter profil er opprettet
@@ -64,6 +66,14 @@ ___
 - Gi anmeldelse til en utleier
   - Brukeren har mulighet til å gi utleier 1-5 stjerner etter jeg har leid et produkt av h*n
   - Brukeren har mulighet til å skrive en kommentar til utleier etter jeg har leid et produkt av h*n
+---
+- Se produktet i kart
+  - Mulighet til å se hvor produktet finnes på kart
+  - Mulighet til å se adressen der produktet er
+---
+- Hjelp og kundestøtte
+  - Brukeren har mulighet til å lese og få svar på ofte stilte spørsmål i en FAQ side
+  - Det finnes et kontaktskjema der brukeren kan sende inn tilbakemelding av siden
 
 ### Som en utvikler har jeg lyst til å:
 
