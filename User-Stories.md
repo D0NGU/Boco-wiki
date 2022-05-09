@@ -49,6 +49,9 @@ ___
   - Motta en varsel-boks som spør om du virkelig vil slette annonsen
   - Ha mulighet til å angre den slettede annonsen via varsel-boksen
   -Ha mulighet til å gjenopprette en slettet annonse fra 'min historikk' (OBS! Dobbeltsjekk dette!!)
+---
+-Brukerprofil
+  - En bruker skal kunne se en liste av sine egne gjenstander som ligger til utlån
 ___
 - Redigere min egen profil
   - Brukeren skal ha muligheten til å endre passord etter profil er opprettet
