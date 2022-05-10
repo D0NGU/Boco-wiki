@@ -12,7 +12,7 @@ ___
   - Få feilmelding dersom email eller passord er feil
   - Bli sendt til hjem-skjermen dersom email og passord er riktig
 ---
-- Visning av produkter
+- Se tilgjengelige produkter til utleie
   - Mulighet for å sortere og filtrere produktene
   - Mulighet for å søke blant produktene
   - Mulighet for å scrolle nedover i produktene
@@ -25,6 +25,7 @@ ___
   - Se tags
   - Se utleier
   - Se plassering i kart
+  - Gå inn på et produkt, velge tidsperiode, og sende forespørsel om leie
   - Få varsel dersom forespørsel om leie er godkjent
 ___
 - Legge ut en annonse
@@ -37,9 +38,8 @@ ___
   - Få varsel når noen ber om leie
   - Få valget mellom å godkjenne eller avslå leieforespørselen 
 ___
-- Brukerfunksjonalitet
-  - Mulighet for å bli verifisert bruker
-  - Ha synlige fordeler som verifisert bruker
+- Ha muligheten til å bli en verifisert bruker
+  - En bruker får synlige fordeler som verifisert bruker
   - En bruker blir verifisert dersom h*n har vært medlem i minst en måned, mottatt minst 10 anmeldelser og har en rating på snitt 4 stjerner eller mer
 ---
 - Oppdatere min egen annonse
@@ -47,12 +47,12 @@ ___
   - Brukeren får tilbakemelding dersom annonsen ble oppdatert
 ___
 - Slette min egen annonse
-  - Motta en varsel-boks som spør om du virkelig vil slette annonsen
+  - Brukeren mottar en varsel-boks som må bekreftes dersom annonsen skal slettes
 ---
-- Brukerprofil
+- Se min egen brukerprofil med informasjon om mine gjenstander, historikk, anmeldelser om meg og profil-innstillinger
   - En bruker skal kunne se en liste av sine egne gjenstander som ligger til utlån
   - En bruker skal kunne se en liste over tidligere lån
-  - En bruker skal kunne se reviews skrevet av andre brukere om seg selv og antall stjerner
+  - En bruker skal kunne se anmeldelser skrevet av andre brukere om seg selv og antall stjerner
   - En bruker skal kunne se et gjennomsnittlig antall stjerner, vurdert av brukeren som både utleier og leier
 ___
 - Redigere min egen profil
@@ -77,7 +77,7 @@ ___
   - Mulighet til å se hvor produktet finnes på kart
   - Mulighet til å se adressen der produktet er
 ---
-- Hjelp og kundestøtte
+- Enkelt finne hjelp og kundestøtte
   - Brukeren har mulighet til å lese ofte stilte spørsmål og svarene deres i en FAQ side
 ___
 - Kunne gi tilbakemelding på nettsiden som sendes videre til utviklerne, slik at de kan forbedre applikasjonen
