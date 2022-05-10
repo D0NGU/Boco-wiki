@@ -49,7 +49,7 @@ ___
 - Slette min egen annonse
   - Motta en varsel-boks som spør om du virkelig vil slette annonsen
 ---
--Brukerprofil
+- Brukerprofil
   - En bruker skal kunne se en liste av sine egne gjenstander som ligger til utlån
 ___
 - Redigere min egen profil
