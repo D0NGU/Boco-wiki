@@ -32,7 +32,7 @@ ___
   - Mulighet for å legge til bilde(r) av produktet 
   - Bestemme pris på produktet, evt. gratis
   - Skrive en beskrivelse av produktet
-  - Legge inn en adresse for produktet
+  - Legge inn en gyldig adresse for produktet
   - Bestemme om annonsen skal være synlig eller ikke
   - Få varsel når noen ber om leie
   - Få valget mellom å godkjenne eller avslå leieforespørselen 
