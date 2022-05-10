@@ -69,6 +69,10 @@ ___
   - Brukeren har mulighet til å gi utleier 1-5 stjerner etter jeg har leid et produkt av h*n
   - Brukeren har mulighet til å skrive en kommentar til utleier etter jeg har leid et produkt av h*n
 ---
+- Kunne se andre brukere sin profil
+  - Kunne se vurderinger og antall stjerner gitt til brukeren
+  - Kunne se de produktene som brukeren har lagt ut til leie
+---
 - Se produktet i kart
   - Mulighet til å se hvor produktet finnes på kart
   - Mulighet til å se adressen der produktet er
