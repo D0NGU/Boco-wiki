@@ -51,6 +51,9 @@ ___
 ---
 - Brukerprofil
   - En bruker skal kunne se en liste av sine egne gjenstander som ligger til utlån
+  - En bruker skal kunne se en liste over tidligere lån
+  - En bruker skal kunne se reviews skrevet av andre brukere om seg selv og antall stjerner
+  - En bruker skal kunne se et gjennomsnittlig antall stjerner, vurdert av brukeren som både utleier og leier
 ___
 - Redigere min egen profil
   - Brukeren skal ha muligheten til å endre passord etter profil er opprettet
