@@ -2,8 +2,7 @@
 Tjeneren tilbyr en rekke resurser som leveres i form av JSON objekter, som kan nås gjennom forskjellige endepunkter.
 | Metode | Endepunkt | Variabler | Response |
 | ------ | ------ |------ |------ |
-| POST | /api/login| Body parametere: username,
- password | autentiserings token |
+| POST | /api/login| Body parametere: username, <br> password | autentiserings token |
 | cell | cell | cell | cell |
 
 Liste over alle ressursene her.
