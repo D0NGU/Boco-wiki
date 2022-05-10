@@ -5,6 +5,7 @@ Tjeneren tilbyr en rekke resurser som leveres i form av JSON objekter, som kan n
 | ------ | ------ |------ |------ |------ |
 | POST | /api/login| JSON: [Login request](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/LoginRequest.java) | autentiserings token | Sjekker om brukeren ligger i databasen. <br> Hvis burker finnes og passordet er riktig <br> returneres en autentiseringsnøkkel |
 | POST | /api/forgot_password | Request parameter: email | Boolean | Sender en glemt passord email til brukeren. <br> Sjekker om emailen kunne sendes. Returnerer true hvis det lykkes og false hvis det feiler |
+| PUT | /api/reset_password | Request parametere: token, password | Boolean | Setter passored lik det innsendte passored, bruker token for å validere bruker |
 
 ### Bruker endepunkter
 
