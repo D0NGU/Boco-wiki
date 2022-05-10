@@ -9,7 +9,7 @@ System
 - [Klassediagram](Klassediagram)
 - [Servertjenester](Servertjenester)
 - [CI og testing](CI og testing)
-- [JavaDoc](http://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/allpackages-index.html)
+- [JavaDoc](https://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/index.html)
 
 Krav
 - [Domenemodell](Domenemodell)
