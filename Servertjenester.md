@@ -27,7 +27,15 @@ Tjeneren tilbyr en rekke resurser som leveres i form av JSON objekter, som kan n
 
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 | ------ | ------ |------ |------ |------ |
-
+| POST | api/products | JSON: [Product](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Product.java) | Verifikasjons melding | Legger til ett produkt i databasen |
+| PUT | api/products/{productId} | Path variabel: productId <br> JSON: [Product](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Product.java) | Verifikasjons melding | Endrer ett gitt produkt i databasen | 
+| GET | api/products/{productId} | Path variabel: productId | [Product](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Product.java) | Finner ett gitt produkt i databasen |
+| GET | api/products/{productId}/availability | Path variabel: productId | Liste med [availability windows](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/AvailabilityWindow.java) | Finner en liste med fra til dato vinduer hvor ett produkt er ledig |
+| POST | api/products/{productId}/image | Path variabel: productId <br> JSON: list med [product image](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/ProductImage.java)| Verifikasjons melding | Legger til nye bilder for ett produkt |
+| GET | api/products/search | Request parametre: q(søke ord) frivillig<br> category frivillig<br>sortBy ascending(true/false) | Sortert liste med [produkter](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Product.java) | Lager en sortert liste med produkter basert på forskjellige request variabler. Noen av variablene kan stå som null.|
+| GET | api/products/user/{userId} | Path variabel: userId | List med [usersProducts](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/UsersProducts.java) | Finner alle produktene som hører til en bruker |
+| GET | api/products/user/{userId}/history | Path variabel: userId | Liste med [produkter](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Product.java) | Finner alle produktene en bruker har leid| 
+| DELETE | api/products/{userId}/delete | Path variabel: userId, Reqeust variabel productId | Verifikasjons streng | Sletter ett gitt produkt hvis userId er produktets eier. |  
 
 
 Liste over alle ressursene her.
