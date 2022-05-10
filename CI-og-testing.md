@@ -29,7 +29,7 @@ for å teste klient eller tjener.
 
 #### Testdekning
 
-På både klient og serversiden blir det generert en rapport for test-dekningsgrad. Denne dekningsgraden blir så plukket opp av GitLab etter pipeline kjører.
+På både klient og serversiden blir det generert en rapport for test-dekningsgrad. Denne dekningsgraden blir så plukket opp av GitLab etter pipeline kjører. Dekningsgraden forteller oss blant annet hvor mange linjer av kode om blir kjørt under testing.
 
 ###### Backend
 
