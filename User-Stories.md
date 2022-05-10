@@ -75,6 +75,13 @@ ___
 ___
 - Kunne gi tilbakemelding på nettsiden som sendes videre til utviklerne, slik at de kan forbedre applikasjonen
   - Sende mail til utviklere via nettsiden
+---
+- Kunne navigere i siden på en enkel og intuitiv måte
+  - Siden er responsiv og gir brukeren tilbakemeldinger der dette er naturlig
+  - Siden har gjennomgående design og oppsett
+  - Navigasjonsbaren markeres ut ifra hvilken side av applikasjonen man er på i øyeblikket
+  - Universelle gjenkjennelige symboler brukes
+  - Det brukes høy kontrast slik at det er enklere for svaksynte å lese
 
 ### Som en utvikler har jeg lyst til å:
 
