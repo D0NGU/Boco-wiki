@@ -1,4 +1,4 @@
-Sikkerheten i applikasjonen vår har blitt sjekket opp mot OWASP sin liste: [OWASP Top Ten Web Application Security Risks](https://owasp.org/www-project-top-ten/)
+Sikkerheten i vår applikasjon har blitt sjekket opp mot OWASP sin liste: [OWASP Top Ten Web Application Security Risks](https://owasp.org/www-project-top-ten/)
 Vi har lagt spesielt fokus på punkt nummer [...]:
 
 ## A. Overskrift
