@@ -41,3 +41,41 @@ For å kjøre applikasjonen mot MySQL serveren må programmet kjøres med 'mysql
 ## [KLIENT](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/frontend)
 
 #### Forutsetninger
+
+For å kjøre klient applikasjonen trengs kun [Node.js 16](https://nodejs.org/en/download/) og node package manager (npm).
+
+#### Miljøvariabler
+
+Dersom klient og tjener ikke kjører på samme maskin må serverens addresse settes i klienten. Det er da bare å endre på variabelen 'baseURL' i filen src/service/ApiService.js silk at den peker til serveren.
+
+#### Innstallasjon & Kjøring
+
+##### Kloning av repoet:
+
+```bash
+  # Via SSH
+  git clone git@gitlab.stud.idi.ntnu.no:idatt2106_2022_08/frontend.git
+
+  # Via HTTPS
+  git clone https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/frontend.git
+```
+
+##### Innstaller avhengigheter:
+
+```cmd
+  npm ci
+```
+
+##### Kjøring:
+
+For å bygge og kjøre applikasjonen i utviklingsmodus kjør:
+
+```cmd
+  npm run serve
+```
+
+For å kompilere optimaliserte filer (disse filene havner i /dist mappen):
+
+```cmd
+  npm run build
+```
