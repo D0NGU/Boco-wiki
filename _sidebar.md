@@ -8,7 +8,7 @@ System
 - [Databasemodell](Databasemodell)
 - [Klassediagram](Klassediagram)
 - [Servertjenester](Servertjenester)
-- [CI og testing](CI og testing)
+- [CI & Testing](CI og testing)
 - [JavaDoc](https://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/index.html)
 
 Krav
