@@ -1,27 +1,18 @@
-#### [Brukertester/modeller](Brukertester og modeller)
+## [Hjem](Home)
+System
+- [Kildekode](Kildekode)
+- [Prosjektstruktur](Prosjektstruktur)
+- [Installasjon](Installasjon)
+- [Arkitektur](Arkitektur)
+- [Sikkerhet](Sikkerhet)
+- [Databasemodell](Databasemodell)
+- [Klassediagram](Klassediagram)
+- [Servertjenester](Servertjenester)
+- [CI og testing](CI og testing)
+- [JavaDoc](http://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/allpackages-index.html)
 
-___
-#### Krav
-[Domenemodell](Domenemodell)
+Krav
+- [Domenemodell](Domenemodell)
+- [User Stories](User Stories)
 
-[User Stories](User Stories)
-
-___
-#### System
-[Arkitektur](Arkitektur)
-
-[CI og testing](CI og testing)
-
-[Databasemodell](Databasemodell)
-
-[Installasjon](Installasjon)
-
-[Kildekode](Kildekode)
-
-[Klassediagram](Klassediagram)
-
-[Prosjektstruktur](Prosjektstruktur)
-
-[Servertjenester](Servertjenester)
-
-[Sikkerhet](Sikkerhet)
+[Brukertester & Modeller](Brukertester og modeller)
