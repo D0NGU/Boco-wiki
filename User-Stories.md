@@ -12,6 +12,12 @@ ___
   - Få feilmelding dersom email eller passord er feil
   - Bli sendt til hjem-skjermen dersom email og passord er riktig
 ---
+- Visning av produkter
+  - Mulighet for å sortere og filtrere produktene
+  - Mulighet for å søke blant produktene
+  - Mulighet for å scrolle nedover i produktene
+  - Mulighet for å sendes til toppen av siden ved å trykke på '@ 2022 BoCo'
+---
 - Leie et produkt
   - Se tilgjengelighet
   - Se pris
@@ -20,12 +26,6 @@ ___
   - Se utleier
   - Se plassering i kart
   - Få varsel dersom forespørsel om leie er godkjent
----
-- Visning av produkter
-  - Mulighet for å sortere og filtrere produktene
-  - Mulighet for å søke blant produktene
-  - Mulighet for å scrolle nedover i produktene
-  - Mulighet for å sendes til toppen av siden ved å trykke på '@ 2022 BoCo'
 ___
 - Legge ut en annonse
   - Bestemme den tidsperioden der produktet skal være tilgjengelig
@@ -40,15 +40,14 @@ ___
 - Brukerfunksjonalitet
   - Mulighet for å bli verifisert bruker
   - Ha synlige fordeler som verifisert bruker
-  - En bruker blir verifisert dersom h*n har vært medlem i minst en måned, mottatt minst 10 anmeldelser og ha en rating på snitt 4 stjerner eller mer
+  - En bruker blir verifisert dersom h*n har vært medlem i minst en måned, mottatt minst 10 anmeldelser og har en rating på snitt 4 stjerner eller mer
 ---
 - Oppdatere min egen annonse
   - Brukeren har mulighet til å endre på alle inputs i annonsen, utenom tittel
+  - Brukeren får tilbakemelding dersom annonsen ble oppdatert
 ___
 - Slette min egen annonse
   - Motta en varsel-boks som spør om du virkelig vil slette annonsen
-  - Ha mulighet til å angre den slettede annonsen via varsel-boksen
-  -Ha mulighet til å gjenopprette en slettet annonse fra 'min historikk' (OBS! Dobbeltsjekk dette!!)
 ---
 -Brukerprofil
   - En bruker skal kunne se en liste av sine egne gjenstander som ligger til utlån
@@ -58,9 +57,6 @@ ___
   - Brukeren må skrive inn gammelt passord for å endre til et nytt
   - Brukeren skal ha muligheten til å endre email etter profil er opprettet
   - Brukeren skal ha muligheten til å endre profilbilde etter profil er opprettet
-___
-- Kunne gi tilbakemelding på nettsiden som sendes videre til utviklerne, slik at de kan forbedre applikasjonen
-  - Sende mail til utviklere via nettsiden
 ___
 - Gi anmeldelse til en leietaker
   - Brukeren har mulighet til å gi leietaker 1-5 stjerner etter h*n har leid et produkt av meg
@@ -75,8 +71,10 @@ ___
   - Mulighet til å se adressen der produktet er
 ---
 - Hjelp og kundestøtte
-  - Brukeren har mulighet til å lese og få svar på ofte stilte spørsmål i en FAQ side
-  - Det finnes et kontaktskjema der brukeren kan sende inn tilbakemelding av siden
+  - Brukeren har mulighet til å lese ofte stilte spørsmål og svarene deres i en FAQ side
+___
+- Kunne gi tilbakemelding på nettsiden som sendes videre til utviklerne, slik at de kan forbedre applikasjonen
+  - Sende mail til utviklere via nettsiden
 
 ### Som en utvikler har jeg lyst til å:
 
