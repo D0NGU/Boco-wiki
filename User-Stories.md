@@ -5,7 +5,7 @@
   - Email må være skrevet på gyldig format
   - Passord må inneholde minst 8 tegn
   - Brukeren skal få en tilbakemelding dersom profilen ble registrert
-  - Dersom ny profil blir opprettet, sendes man til logg inn siden
+  - Dersom ny profil blir opprettet, sendes brukeren til 'logg inn'-siden
 ---
 
 - Logge inn med email og passord, slik at jeg kan benytte meg av plattformen
