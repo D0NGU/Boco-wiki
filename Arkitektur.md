@@ -1,4 +1,3 @@
-**!! Midlertidig bildefigur med overblikk over systemarkitekturen**
 
 ![SystemArchitecture](uploads/cf09a61be0b5e4ccd76c9430b70ccdbb/SystemArchitecture.png)
 
