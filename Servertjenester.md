@@ -45,6 +45,20 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 | GET | api/products/user/{userId}/history | Path variabel: userId | Liste med [produkter](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Product.java) | Finner alle produktene en bruker har leid |
 | DELETE | api/products/{userId}/delete | Path variabel: userId, Reqeust variabel productId | Verifikasjons streng | Sletter ett gitt produkt hvis userId er produktets eier. |
 
+### Listings
+| Metode | Endepunkt | Variabler | Respons | Sammendrag |
+|--------|-----------|-----------|---------|------------|
+| GET | api/listing/{productId | Path variabel: productId | Gitt [Listing](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Listing.java) | Finner en listing for ett gitt produkt. En listing er ett kompositt av all info relevant for ett gitt produkt |
+
+### Kategorier
+| Metode | Endepunkt | Variabler | Respons | Sammendrag |
+|--------|-----------|-----------|---------|------------|
+| GET | api/categories | | Liste med [categories](
+https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Category.java) | Finner alle kategoriene i database | 
+
+
+
+
 Liste over alle ressursene her.
 
 Ta med endepunkter her
