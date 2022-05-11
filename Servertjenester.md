@@ -59,7 +59,7 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
 | GET | api/alerts/user/{userid} | Path variable: userId | Brukers [alerts](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Alert.java) | Finner alle varslene for en bruker |
-| POST | api/alerts/user/{userid}/newAlert | Path variable: userId, JSON: [alert](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Alert.java) | Legger til en ny varsel på en bruker |
+| POST | api/alerts/user/{userid}/newAlert | Path variable: userId, JSON: [alert](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Alert.java) | Verifikasjons melding |Legger til en ny varsel på en bruker |
 | GET |api/alerts/user/{userid}/unseen | Path variable: userId | Brukers usette [alerts](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Alert.java) | Finner alle varslene som en bruker ikke har sett |
 | PUT | api/alerts/seen/{alertId} | Path variable: alertId | Verifikasjons melding | Endrer en gitt varsling til sett |
 | DELETE | api/alerts/{alertId}| Path variable: alertId | Verifikasjons melding | Sletter en gitt varsling |
