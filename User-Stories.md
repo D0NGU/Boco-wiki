@@ -6,7 +6,7 @@
   - Passord må inneholde minst 8 tegn
   - Brukeren skal få en tilbakemelding dersom profilen ble registrert
   - Dersom ny profil blir opprettet, sendes man til logg inn siden
-___
+---
 
 - Logge inn med email og passord, slik at jeg kan benytte meg av plattformen
   - Få feilmelding dersom email eller passord er feil
@@ -27,7 +27,7 @@ ___
   - Se plassering i kart
   - Gå inn på et produkt, velge tidsperiode, og sende forespørsel om leie
   - Få varsel dersom forespørsel om leie er godkjent
-___
+---
 - Legge ut en annonse
   - Bestemme den tidsperioden der produktet skal være tilgjengelig
   - Mulighet for å legge til bilde(r) av produktet 
@@ -37,7 +37,7 @@ ___
   - Bestemme om annonsen skal være synlig eller ikke
   - Få varsel når noen ber om leie
   - Få valget mellom å godkjenne eller avslå leieforespørselen 
-___
+---
 - Ha muligheten til å bli en verifisert bruker
   - En bruker får synlige fordeler som verifisert bruker
   - En bruker blir verifisert dersom h*n har vært medlem i minst en måned, mottatt minst 10 anmeldelser og har en rating på snitt 4 stjerner eller mer
@@ -45,7 +45,7 @@ ___
 - Oppdatere min egen annonse
   - Brukeren har mulighet til å endre på alle inputs i annonsen, utenom tittel
   - Brukeren får tilbakemelding dersom annonsen ble oppdatert
-___
+---
 - Slette min egen annonse
   - Brukeren mottar en varsel-boks som må bekreftes dersom annonsen skal slettes
 ---
@@ -54,13 +54,13 @@ ___
   - En bruker skal kunne se en liste over tidligere lån
   - En bruker skal kunne se anmeldelser skrevet av andre brukere om seg selv og antall stjerner
   - En bruker skal kunne se et gjennomsnittlig antall stjerner, vurdert av brukeren som både utleier og leier
-___
+---
 - Redigere min egen profil
   - Brukeren skal ha muligheten til å endre passord etter profil er opprettet
   - Brukeren må skrive inn gammelt passord for å endre til et nytt
   - Brukeren skal ha muligheten til å endre email etter profil er opprettet
   - Brukeren skal ha muligheten til å endre profilbilde etter profil er opprettet
-___
+---
 - Gi anmeldelse til en leietaker
   - Brukeren har mulighet til å gi leietaker 1-5 stjerner etter h*n har leid et produkt av meg
   - Brukeren har mulighet til å skrive en kommentar til leietaker etter h*n har leid et produkt av meg
@@ -79,7 +79,7 @@ ___
 ---
 - Enkelt finne hjelp og kundestøtte
   - Brukeren har mulighet til å lese ofte stilte spørsmål og svarene deres i en FAQ side
-___
+---
 - Kunne gi tilbakemelding på nettsiden som sendes videre til utviklerne, slik at de kan forbedre applikasjonen
   - Sende mail til utviklere via nettsiden
 ---
@@ -89,9 +89,3 @@ ___
   - Navigasjonsbaren markeres ut ifra hvilken side av applikasjonen man er på i øyeblikket
   - Universelle gjenkjennelige symboler brukes
   - Det brukes høy kontrast slik at det er enklere for svaksynte å lese
-
-### Som en utvikler har jeg lyst til å:
-
-- Eks.
-  - eks.
-___
