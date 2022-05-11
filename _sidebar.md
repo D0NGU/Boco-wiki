@@ -15,4 +15,4 @@ Krav
 - [Domenemodell](Domenemodell)
 - [User Stories](User Stories)
 
-[Brukertester & Modeller](Brukertester og modeller)
+[Modeller](modeller)
