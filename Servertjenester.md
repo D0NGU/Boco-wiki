@@ -79,6 +79,17 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 | PUT | api/rentals/accepted/{rentalId} | Path variabel: rentalId | Verifikasjons melding | Aksepterer en leie avtale, hvis produktet er ledig i perioden |
 | DELETE | api/rentals/{rentalId} | Path variabel: rentalId |  Verifikasjons melding | Sletter en leieavtale |
 
+### Anmeldelser
+| Metode | Endepunkt | Variabler | Respons | Sammendrag |
+|--------|-----------|-----------|---------|------------|
+| POST | api/review | [review](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Review.java) | Verifikasjons melding | Legger til en ny anmeldelse og lager en varsel for anmeldt bruker |
+| GET | api/review/{reviewId} | Path variabel: reviewId | JSON: [review](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Review.java | Finner anmeldelse med gitt id |
+| GET | api/review | Request parametere: subject (integer, frivillig), author (integer, frivillig) | Liste med [reviews](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Review.java) | Finner anmeldelser for en bruker, eller for en forfatter. Kan også finne for både forfatter og subjekt|
+| GET | api/review/user/{userId}/average | Path variabel: userId | Double | Finner totale gjennomsnitts ratingen for en bruker | 
+| GET | api/review/user/{userId}/average | Path variabel: userId | Double | Finner eier ratingen for en bruker | 
+| GET | api/review/user/{userId}/average | Path variabel: userId | Double | Finner leier ratingen for en bruker |
+| GET | api/review/user/{userId}/amount | Path variabel: userId | Integer | Finner antal reviews |
+
 Liste over alle ressursene her.
 
 Ta med endepunkter her
