@@ -1,5 +1,5 @@
 ## Om programmet
-BoCo (Borrow Community) er et norsk selskap som vil tilby en plattform for utlån av gjenstander for privatpersoner og bedrifter. Målet er å bli den foretrukne plattformen for lån for privatpersoner og bedrifter i Norge. 
+BoCo (Borrow Community) er et norsk selskap som vil tilby en plattform for utlån av gjenstander for privatpersoner og bedrifter. Målet er å bli den foretrukne plattformen for lån blant privatpersoner og bedrifter i Norge. 
 
 Vi legger hovedvekt på at BoCo skal eksistere gjennom BoCo-appen, som skal være BoCos ansikt utad. Gjennom plattformen vår ønsker vi å legge til rette for mer bærekraftige samfunn.
 
