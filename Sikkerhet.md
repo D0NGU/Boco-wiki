@@ -1,12 +1,12 @@
 For sikkerhet har applikasjonen blitt sjekket opp mot OWASP sin liste over [Top Ten Web Application Security Risks](https://owasp.org/www-project-top-ten/).
 
-## [[A01](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)] Adgangskontroll
+## Adgangskontroll
 
 Meningen med adgangskontroll er at brukere ikke skal kunne nå data/funksjoner som ikke var tiltenkt dem.
 
 BoCo nettstedet benytter tokens for autentisering. Her blir [JWT](https://jwt.io/) (JSON web token) brukt for å digitalt signere hvert kall til serveren. Når brukeren har logget inn vil hvert påfølgende kall inkludere en token. Denne tokenen tillater brukeren å nå flere endepunkter (som endepunktene for å lage/slette produkt) som er tillatt for den brukeren.
 
-## [[A02](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)] Sensetiv dataeksponering
+## Sensetiv dataeksponering
 
 Siden BoCo nettsiden krever innlogging må det lagres noe informasjon om brukerene. Her må brukerene oppgi fullt navn, en epost-addresse og ett passord. Navn og epost lagres som ren tekst i databasen, mens passord krypteres.
 
@@ -33,7 +33,7 @@ Alg Kost       Salt                        Hash
 
 Dersom databasen komprimeres vil angreperne kun finne denne typen string, og det vil ta mer tid/krefter for å finne brukerenes faktiske passord.
 
-## [[A03](https://owasp.org/Top10/A03_2021-Injection/)] Kodeinjeksjon
+## Kodeinjeksjon
 
 En av de større sikkerhetshullene kommer i form av kodeinjeksjon. Dette er når f.eks. inndata ikke sjekkes før det sendes inn til databasen.
 
