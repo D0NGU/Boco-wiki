@@ -64,7 +64,20 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 | PUT | api/alerts/seen/{alertId} | Path variable: alertId | Verifikasjons melding | Endrer en gitt varsling til sett |
 | DELETE | api/alerts/{alertId}| Path variable: alertId | Verifikasjons melding | Sletter en gitt varsling |
 
+### Kontakt skjema
+| Metode | Endepunkt | Variabler | Respons | Sammendrag |
+|--------|-----------|-----------|---------|------------|
+| POST | api/contact | JSON: [contactForm](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/ContactForm.java) | Verifikasjons melding | Lagrer en ny kontakt annonse |
 
+### Leieavtaler
+| Metode | Endepunkt | Variabler | Respons | Sammendrag |
+|--------|-----------|-----------|---------|------------|
+| POST | api/rentals | JSON: [rental](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Rental.java) | Verifikasjons melding | Legger til en ny rental i databasen, hvis mulig |
+| GET | api/rentals/product/{id} | Path variabel: id | Liste med [rentals](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Rental.java) | Finner alle leie avtaler for ett produkt |
+| GET | api/rentals/product/{id}/{accepted} | Path variabel: id, accepted | Liste med [rentals](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Rental.java) | Finner alle leie avtaler for ett produkt hvor accepted er true/false |
+| GET | api/rentals/user/{id} | Path variabel: id | Liste med [rentals](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Rental.java) | Finner alle leie avtaler med gitt bruker id |
+| PUT | api/rentals/accepted/{rentalId} | Path variabel: rentalId | Verifikasjons melding | Aksepterer en leie avtale, hvis produktet er ledig i perioden |
+| DELETE | api/rentals/{rentalId} | Path variabel: rentalId |  Verifikasjons melding | Sletter en leieavtale |
 
 Liste over alle ressursene her.
 
