@@ -53,8 +53,7 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 ### Kategorier
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
-| GET | api/categories | | Liste med [categories](
-https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Category.java) | Finner alle kategoriene i database | 
+| GET | api/categories | | Liste med [categories](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Category.java) | Finner alle kategoriene i database | 
 
 
 
