@@ -4,7 +4,7 @@ For sikkerhet har applikasjonen blitt sjekket opp mot OWASP sin liste over [Top 
 
 Meningen med adgangskontroll er at brukere ikke skal kunne nå data/funksjoner som ikke var tiltenkt dem.
 
-BoCo nettstedet benytter tokens for autentisering. Her blir [JWT](https://jwt.io/) (JSON web token) brukt for å digitalt signere hvert kall til serveren. Når brukeren har logget inn vil hvert påfølgende kall inkludere en token. Denne tokenen tillater brukeren å nå flere endepunkter (som endepunktene for å lage/slette produkt) som er tillat for den brukeren.
+BoCo nettstedet benytter tokens for autentisering. Her blir [JWT](https://jwt.io/) (JSON web token) brukt for å digitalt signere hvert kall til serveren. Når brukeren har logget inn vil hvert påfølgende kall inkludere en token. Denne tokenen tillater brukeren å nå flere endepunkter (som endepunktene for å lage/slette produkt) som er tillatt for den brukeren.
 
 ## [[A02](https://owasp.org/Top10/A02_2021-Cryptographic_Failures/)] Sensetiv dataeksponering
 
