@@ -9,7 +9,7 @@ For å kjøre applikasjonen lokalt kreves det følgende:
 JDK kreves for å kompilere og kjøre applikasjonen, mens Maven håndterer avhengighetene. 
 
 Databaseløsning: <br>
-Tjeneren kan enten benytte en innebygd H2 database eller en ekstern MySQL database som finnes på NTNUs servere. Det er altså ingen krav for lokal databaseløsning. Dersom det er behov for å bruke en annen databaseløsning kan dette konfigureres gjennom Spring Boot (enten ved å lage en ny profil eller ved å modifisere standardprofilen i _src/main/resources/application.properties_).
+Tjeneren kan enten benytte en innebygd H2 database eller en ekstern MySQL database som finnes på NTNUs servere. Det er altså ingen krav for lokal databaseløsning. Dersom det er behov for å bruke en annen databaseløsning kan dette konfigureres gjennom Spring Boot (enten ved å lage en ny profil eller ved å modifisere standardprofilen i 'src/main/resources/application.properties'). Det anbefales å kjøre serveren opp mot MySQL serveren.
 
 #### Innstallasjon & Kjøring
 
@@ -46,7 +46,7 @@ For å kjøre klient applikasjonen trengs kun [Node.js 16](https://nodejs.org/en
 
 #### Miljøvariabler
 
-Dersom klient og tjener ikke kjører på samme maskin må serverens addresse settes i klienten. Det er da bare å endre på variabelen 'baseURL' i filen src/service/ApiService.js silk at den peker til serveren.
+Dersom klient og tjener ikke kjører på samme maskin (og tjenerens port ikke er 8080) må serverens addresse settes i klienten. Det er da bare å endre på variabelen 'baseURL' i filen src/service/ApiService.js silk at den peker til serveren.
 
 #### Innstallasjon & Kjøring
 
