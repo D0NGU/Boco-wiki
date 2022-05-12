@@ -39,7 +39,7 @@ En av de større sikkerhetshullene kommer i form av kodeinjeksjon. Dette er når
 
 #### SQL-injeksjon
 
-I BoCo klienten vil alt av inndata sjekkes før det sendes til serveren. Dette vil si at det ikke er mulig å injisere SQL-setninger fra inndata-feltene på nettstedet. På serversiden benyttes APIen kalt Java Database Connectivity (JDBC). JDBC er det som kobler til og kjører spørringer mot databasen.
+I BoCo klienten vil alt av inndata sjekkes før det sendes til serveren. Dette vil si at det ikke er mulig å injisere SQL-setninger fra inndata-feltene på nettstedet. På serversiden benyttes APIen kalt Java Database Connectivity (JDBC). JDBC er det som kobler til og kjører spørringer mot databasen. Ved hjelp av prepared statements skal muligheten for injection angrep være redusert.
 
 ## Scripting på nettstedet (XSS)
 
