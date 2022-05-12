@@ -1,8 +1,6 @@
 #### [Hjem](Home)
 ___
 
-<br />
-
 #### [Modeller](modeller)
 ___
 
