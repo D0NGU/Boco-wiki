@@ -1,5 +1,5 @@
-# [Hjem](Home)
-# [System](System)
+### [Hjem](Home)
+### [System](System)
 - [Kildekode](Kildekode)
 - [Prosjektstruktur](Prosjektstruktur)
 - [Installasjon](Installasjon)
