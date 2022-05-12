@@ -1,1 +1,1 @@
-![Domenemodell.drawio](uploads/de7a14d41b4683df92e6a97df3d13b82/Untitled_Diagram.drawio.png)
+![Domenediagram.drawio](uploads/97f42f88f8ace685d2aaa4c3e1fb5bbf/Domenediagram.drawio.png)
