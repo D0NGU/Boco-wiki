@@ -1,6 +1,6 @@
-### [Hjem](Home)
+#### [Hjem](Home)
 ___
-### [System](System)
+#### [System](System)
 ___
 [Kildekode](Kildekode)
 
@@ -21,11 +21,11 @@ ___
 [CI & Testing](CI og testing)
 
 [JavaDoc](https://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/index.html)
-___
-### [Krav](Krav)
+
+#### [Krav](Krav)
 ___
 [Domenemodell](Domenemodell)
 
 [User Stories](User Stories)
-___
-### [Modeller](modeller)
+
+#### [Modeller](modeller)
