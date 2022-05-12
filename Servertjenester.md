@@ -6,16 +6,24 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 
 ## Endepunkter
 
+Her finnes alle endepunkt for serverapplikasjonen.
+
 - [Innlogging](#innlogging)
 - [Bruker](#bruker)
 - [Produkt](#produkt)
+- [Annonse](#annonse)
+- [Kategori](#kategori)
+- [Varsling](#varsling)
+- [Kontaktskjema](#kontaktskjema)
+- [Leieavtale](#leieavtale)
+- [Anmeldelse](#anmeldelse)
 
 ### Innlogging
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
-| POST | /api/login | JSON: [Login request](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/LoginRequest.java) | autentiserings token | Sjekker om brukeren ligger i databasen. <br>Hvis burker finnes og passordet er riktig <br>returneres en autentiseringsnøkkel |
+| POST | /api/login | JSON: [Login request](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/LoginRequest.java) | autentiserings token | Sjekker om brukeren ligger i databasen. <br>Hvis bruker finnes og passordet er riktig <br>returneres en autentiseringsnøkkel |
 | POST | /api/forgot_password | Request parameter: email | Boolean | Sender en glemt passord email til brukeren. <br>Sjekker om emailen kunne sendes. Returnerer true hvis det lykkes og false hvis det feiler |
-| PUT | /api/reset_password | Request parametere: token, password | Boolean | Setter passored lik det innsendte passored, bruker token for å validere bruker |
+| PUT | /api/reset_password | Request parametere: token, password | Boolean | Setter passord lik det innsendte passored, bruker token for å validere bruker |
 
 ### Bruker
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
@@ -45,17 +53,17 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 | GET | api/products/user/{userId}/history | Path variabel: userId | Liste med [produkter](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Product.java) | Finner alle produktene en bruker har leid |
 | DELETE | api/products/{userId}/delete | Path variabel: userId, Reqeust variabel productId | Verifikasjons streng | Sletter ett gitt produkt hvis userId er produktets eier. |
 
-### Listings
+### Annonse
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
 | GET | api/listing/{productId | Path variabel: productId | Gitt [Listing](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Listing.java) | Finner en listing for ett gitt produkt. En listing er ett kompositt av all info relevant for ett gitt produkt |
 
-### Kategorier
+### Kategori
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
 | GET | api/categories | | Liste med [categories](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Category.java) | Finner alle kategoriene i database | 
  
-### Varslinger
+### Varsling
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
 | GET | api/alerts/user/{userid} | Path variable: userId | Brukers [alerts](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Alert.java) | Finner alle varslene for en bruker |
@@ -64,12 +72,12 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 | PUT | api/alerts/seen/{alertId} | Path variable: alertId | Verifikasjons melding | Endrer en gitt varsling til sett |
 | DELETE | api/alerts/{alertId}| Path variable: alertId | Verifikasjons melding | Sletter en gitt varsling |
 
-### Kontakt skjema
+### Kontaktskjema
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
 | POST | api/contact | JSON: [contactForm](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/ContactForm.java) | Verifikasjons melding | Lagrer en ny kontakt annonse |
 
-### Leieavtaler
+### Leieavtale
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
 | POST | api/rentals | JSON: [rental](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Rental.java) | Verifikasjons melding | Legger til en ny rental i databasen, hvis mulig |
@@ -79,7 +87,7 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 | PUT | api/rentals/accepted/{rentalId} | Path variabel: rentalId | Verifikasjons melding | Aksepterer en leie avtale, hvis produktet er ledig i perioden |
 | DELETE | api/rentals/{rentalId} | Path variabel: rentalId |  Verifikasjons melding | Sletter en leieavtale |
 
-### Anmeldelser
+### Anmeldelse
 | Metode | Endepunkt | Variabler | Respons | Sammendrag |
 |--------|-----------|-----------|---------|------------|
 | POST | api/review | [review](https://gitlab.stud.idi.ntnu.no/idatt2106_2022_08/backend/-/blob/main/src/main/java/ntnu/idatt/boco/model/Review.java) | Verifikasjons melding | Legger til en ny anmeldelse og lager en varsel for anmeldt bruker |
@@ -89,7 +97,3 @@ Som en regel returnerer serveren alltid en HTTP status. Denne statusen indikerer
 | GET | api/review/user/{userId}/average | Path variabel: userId | Double | Finner eier ratingen for en bruker | 
 | GET | api/review/user/{userId}/average | Path variabel: userId | Double | Finner leier ratingen for en bruker |
 | GET | api/review/user/{userId}/amount | Path variabel: userId | Integer | Finner antal reviews |
-
-Liste over alle ressursene her.
-
-Ta med endepunkter her
