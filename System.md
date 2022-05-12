@@ -2,7 +2,7 @@
 - [CI & Testing](CI & Testing)
 - [Databasemodell](Databasemodell)
 - [Installasjon](Installasjon)
-- [JavaDoc]
+- [JavaDoc](https://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/index.html)
 - [Kildekode](Kildekode)
 - [Klassediagram](Klassediagram)
 - [Prosjektstruktur](Prosjektstruktur)
