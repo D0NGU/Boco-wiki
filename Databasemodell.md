@@ -2,7 +2,7 @@
 Relasjons modell
 ![database_boco](uploads/42fc266791fd3b44bffce38b409edfb3/database_boco.png)
 Variabel typer
-![2021-04-18](uploads/af56379e632cc27943049ecde7cb45b8/2021-04-18.png)
+![Skjermbilde_2022-05-12_102745](uploads/35d4b98a98605f43de2b23270dbbbb84/Skjermbilde_2022-05-12_102745.jpg)
 
 Hvor mange hovedkomponenter og hvor mange sammenkoblingstabeller? 
 
