@@ -7,9 +7,9 @@ Variabel typer
 Databasen består av 8 hovedkomponenter, uten noen sammenkoblingstabeller.
 
 De forskjellige tabellene er:
-1. User
+1. User  
   Lagrer info relevant for en gitt bruker.
-2. Produkt
+2. Produkt  
   Lagrer info relevant for ett gitt produkt.
 3. Images
   Lagrer bilder som hører til diverse produkter. 
