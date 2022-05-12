@@ -1,6 +1,6 @@
 ![Classdiagram_Boco](uploads/63fd6ce9020fe19e87cdfa2773f53a94/Classdiagram_Boco.png)
 
-Sammenhengene mellom klassene i bildet over er generert med Intellij.
+Sammenhengene mellom klassene i bildet over er generert med _IntelliJ IDEA_.
 
 ## Pakkene i prosjektet med tilhørende klasser, inkludert objektvariabler og metodehoder
 ### Controller-pakken:
