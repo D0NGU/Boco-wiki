@@ -25,5 +25,4 @@ De forskjellige tabellene er:
   
 
 #### Variabler
-
-![Skjermbilde_2022-05-12_102745](uploads/35d4b98a98605f43de2b23270dbbbb84/Skjermbilde_2022-05-12_102745.jpg)
+![image](uploads/afa8b2f172c69381e2babf7984496945/image.png)
