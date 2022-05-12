@@ -1,28 +1,32 @@
 #### [Hjem](Home)
 ___
+<br />
+
 #### [System](System)
 ___
-[Kildekode](Kildekode)
-
-[Prosjektstruktur](Prosjektstruktur)
-
-[Installasjon](Installasjon)
 
 [Arkitektur](Arkitektur)
 
-[Sikkerhet](Sikkerhet)
+[CI & Testing](CI og testing)
 
 [Databasemodell](Databasemodell)
 
-[Klassediagram](Klassediagram)
-
-[Servertjenester](Servertjenester)
-
-[CI & Testing](CI og testing)
+[Installasjon](Installasjon)
 
 [JavaDoc](https://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/index.html)
 
+[Kildekode](Kildekode)
 
+[Klassediagram](Klassediagram)
+
+[Prosjektstruktur](Prosjektstruktur)
+
+[Servertjenester](Servertjenester)
+
+[Sikkerhet](Sikkerhet)
+
+
+<br />
 
 #### [Krav](Krav)
 ___
@@ -31,5 +35,6 @@ ___
 [User Stories](User Stories)
 
 
+<br />
 
 #### [Modeller](modeller)
