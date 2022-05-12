@@ -1,5 +1,5 @@
-## [Hjem](Home)
-System
+# [Hjem](Home)
+# [System](System)
 - [Kildekode](Kildekode)
 - [Prosjektstruktur](Prosjektstruktur)
 - [Installasjon](Installasjon)
@@ -11,8 +11,8 @@ System
 - [CI & Testing](CI og testing)
 - [JavaDoc](https://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/index.html)
 
-Krav
+# [Krav](Krav)
 - [Domenemodell](Domenemodell)
 - [User Stories](User Stories)
 
-[Modeller](modeller)
+# [Modeller](modeller)
