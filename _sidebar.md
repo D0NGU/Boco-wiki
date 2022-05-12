@@ -1,5 +1,16 @@
 #### [Hjem](Home)
 ___
+
+#### [Krav](Krav)
+___
+[Domenemodell](Domenemodell)
+
+[User Stories](User Stories)
+
+<br />
+
+#### [Modeller](modeller)
+___
 <br />
 
 #### [System](System)
@@ -24,17 +35,3 @@ ___
 [Servertjenester](Servertjenester)
 
 [Sikkerhet](Sikkerhet)
-
-
-<br />
-
-#### [Krav](Krav)
-___
-[Domenemodell](Domenemodell)
-
-[User Stories](User Stories)
-
-
-<br />
-
-#### [Modeller](modeller)
