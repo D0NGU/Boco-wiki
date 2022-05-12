@@ -22,10 +22,14 @@ ___
 
 [JavaDoc](https://idatt2106_2022_08.pages.stud.idi.ntnu.no/backend/index.html)
 
+
+
 #### [Krav](Krav)
 ___
 [Domenemodell](Domenemodell)
 
 [User Stories](User Stories)
+
+
 
 #### [Modeller](modeller)
