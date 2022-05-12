@@ -1,6 +1,6 @@
 
 ## Relasjonsmodell
-![database_boco](uploads/42fc266791fd3b44bffce38b409edfb3/database_boco.png)
+![database_boco__1_](uploads/10db7b4972dc471532bf2b03d7a1c7b1/database_boco__1_.png)
 
 ## Komponenter
 
