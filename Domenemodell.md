@@ -1,1 +1,1 @@
-Bilde av domenemodell her
+![Domenemodell.drawio](uploads/de7a14d41b4683df92e6a97df3d13b82/Untitled_Diagram.drawio.png)
